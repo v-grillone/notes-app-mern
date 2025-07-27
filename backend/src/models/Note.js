@@ -14,7 +14,7 @@ const noteSchema = new mongoose.Schema(
   },
   { timestamps: true } // created at, updated at
 );
-
+ 
 const Note = mongoose.model("Note", noteSchema)
 
 export default Note
